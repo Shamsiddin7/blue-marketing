@@ -51,4 +51,9 @@ ul{
 
 .all-btn:hover{
     background-color: var(--secondary-blue);
+}   
+
+body{
+    background-color: #E5E5E5;
+    font-family: var(--rubik);
 }

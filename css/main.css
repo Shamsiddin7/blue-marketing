@@ -85,6 +85,19 @@ body{
     font-size: 50px;
     font-weight: 700;
     color: #464748;
+    position: relative;
+    z-index: 2;
+}
+
+.header-headline::before{
+    content: "";
+    display: block;
+    width: 105px;
+    height: 55px;
+    background-color: var(--primary-blue);
+    position: absolute;
+    top: 25%;
+    z-index: -1;
 }
 
 .header-text{
@@ -100,5 +113,39 @@ body{
 /* HEADER */
 
 /* SKILLS */
+.skills {
+    padding-bottom: 40px;
+}
+
+.skills-cards {
+    display: flex;
+    column-gap: 30px;
+}
+
+.skills-card {
+    max-width: 255px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+
+.skills-card__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary-blue);
+}
+
+.skills-card__icon {
+    margin-top: 60px;
+    padding-bottom: 70px;
+    color: var(--primary-blue);
+}
 
 /* SKILLS */

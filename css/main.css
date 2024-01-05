@@ -1,1 +1,54 @@
 @import url(./fonts.css);
+
+/* CUSTOM PROPS */
+:root{
+    --primary-blue: #3FA5D5;
+    --secondary-blue:  #2A86B1;
+    --text-color: #545454;
+    --rubik: 'Rubik';
+}
+
+/* GLOBAL STYLES */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* CONTAINER */
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.all-btn{
+    display: inline-block;
+    max-width: 211px;
+    width: 100%;
+    padding: 7px 0;
+    border-radius: 30px;
+    background-color: var(--primary-blue);
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--rubik);
+    transition: .5s;
+}   
+
+.all-btn:hover{
+    background-color: var(--secondary-blue);
+}

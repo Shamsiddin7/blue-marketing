@@ -149,3 +149,79 @@ body{
 }
 
 /* SKILLS */
+
+/* INFO */
+.info {
+    padding-bottom: 44px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-news__work {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.info-desc__title,
+.info-news__title {
+    color: #686868;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 22px 15px;
+}
+
+.info-desc__text{
+    max-width: 825px;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.info-news__item {
+    max-width: 255px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    border-radius: 8px;
+    display: flex;
+    column-gap: 15px;
+    padding: 15px;
+    align-items: center;
+}
+
+.info-news__image {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info-news__desc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.info-news__headline {
+    font-size: 17px;
+    font-weight: 400;
+    color: #323232;
+    line-height: 16px;
+}
+
+.info-news__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 13.23px;
+    color: #000;
+}
+
+/* INFO */

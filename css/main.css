@@ -225,3 +225,37 @@ body{
 }
 
 /* INFO */
+
+/* FOOTER */
+.footer {
+    background-color: var(--primary-blue);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-title {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    text-align: end;
+}
+.footer-phone {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer-mail {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* FOOTER */
